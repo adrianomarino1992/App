@@ -21,14 +21,14 @@ namespace DentistaApp
                         
         }
 
-        // GET: Fornecedores
+       
         public async Task<IActionResult> Index()
         {
             ViewData["Title"] = "Tela de controle de Fornecedores";
             return View(await _context.Fornecedor.ToListAsync());
         }
 
-        // GET: Fornecedores/Details/5
+        
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -47,7 +47,7 @@ namespace DentistaApp
             return View(fornecedor);
         }
 
-        // GET: Fornecedores/Create
+        
         public IActionResult Create()
         {
             ViewData["Materias"] = Utilizades.ListarMaterias.GetMaterias();
@@ -55,9 +55,7 @@ namespace DentistaApp
             return View();
         }
 
-        // POST: Fornecedores/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+           
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,Cadastro,TipoProduto")] Fornecedor fornecedor)
@@ -73,7 +71,7 @@ namespace DentistaApp
             return View(fornecedor);
         }
 
-        // GET: Fornecedores/Edit/5
+       
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -92,9 +90,7 @@ namespace DentistaApp
             return View(fornecedor);
         }
 
-        // POST: Fornecedores/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+           
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Cadastro,TipoProduto")] Fornecedor fornecedor)
@@ -127,7 +123,7 @@ namespace DentistaApp
             return View(fornecedor);
         }
 
-        // GET: Fornecedores/Delete/5
+        
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -145,7 +141,7 @@ namespace DentistaApp
             return View(fornecedor);
         }
 
-        // POST: Fornecedores/Delete/5
+       
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

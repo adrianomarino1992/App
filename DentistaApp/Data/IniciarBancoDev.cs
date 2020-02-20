@@ -60,8 +60,18 @@ namespace DentistaApp.Data
                 Fornecedor = f2
             };
 
+            Produto p3 = new Produto()
+            {
+                Id = 3,
+                Nome = "Balas",
+                Descricao = "Balas de Caramelo",
+                Estoque = 250,
+                Tipo = Models.Enum.Materias.Alimentos,
+                Fornecedor = f1
+            };
+
             _context.Fornecedor.AddRange(f1, f2);
-            _context.Produto.AddRange(p1, p2);
+            _context.Produto.AddRange(p1, p2, p3);
 
             _context.SaveChanges();
 
