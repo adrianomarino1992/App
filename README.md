@@ -4,5 +4,5 @@ Insira suas credencias no arquivo 'appsettings.json', no atributo 'ConectionStri
 
 Execute o comando 'Update-Database' pelo Painel Gerenciador de Pacotes para criar o banco de dados 'dentista' e sua estrutura.  
 
-#Bonus
+# Bonus
 Exemplo de utilização da lib Open Layers 
