@@ -18,6 +18,19 @@ namespace DentistaApp.Controllers
         }
         public IActionResult Index()
         {
+            List<ClienteBuscaResult> clientes = new List<ClienteBuscaResult>();
+
+            foreach(Cliente c in _context.Cliente.ToList())
+            {
+                clientes.Add(new ClienteBuscaResult()
+                {
+                    Cliente = c,
+                    CidadeName = c.Cidade.ToString()
+                });
+            }
+
+            ViewData["Clientes"] = clientes;
+            ViewData["Dentistas"] = _context.Dentista.ToList();
             ViewData["Fornecedores"] = _context.Fornecedor.ToList();
             ViewData["Produtos"] = _context.Produto.ToList();
 

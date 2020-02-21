@@ -22,6 +22,55 @@
 
     <hr />
 
+
+    <h4 class="h4">Clientes</h4>
+
+    <table class="table" style="background-color : aliceblue;">
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Cidade</th>
+        </tr>
+
+        @{
+
+            List<ClienteBuscaResult> clientes = (List<ClienteBuscaResult>)ViewData["Clientes"];
+            foreach (ClienteBuscaResult p in clientes)
+            {
+                <tr>
+                    <td>@p.Cliente.Id</td>
+                    <td>@p.Cliente.Nome</td>
+                    <td>@p.CidadeName</td>
+                </tr>
+            }
+
+        }
+    </table>
+
+
+
+    <h4 class="h4">Dentistas</h4>
+
+    <table class="table" style="background-color : aliceblue;">
+        <tr>
+            <th>Nome</th>
+            <th>Id</th>            
+        </tr>
+
+        @{
+
+            List<Dentista> dentistas = (List<Dentista>)ViewData["Dentistas"];
+            foreach (Dentista d in dentistas)
+            {
+                <tr>
+                    <td>@d.Nome</td>
+                    <td>@d.Id</td>                    
+                </tr>
+            }
+
+        }
+    </table>
+
     <h4 class="h4">Fornecedores</h4>
 
     <table class="table" style="background-color : aliceblue;">
@@ -72,9 +121,11 @@
     </table>
 
 
-    <hr/>
 
-    <h4 class="h4">Exemplo da Utilização da Lib OpenLayers 4.6.2 junto com Asp</h4>
+    <hr />
+
+    <h3 class="h3">Estamos Aqui : </h3>
+    <p>Avenida Exemplo 123456, Jacareí - Centro </p>
 
     <div class="container"
          id="map"
@@ -102,6 +153,34 @@
                 maxZoom: 15
             })
         });
+
+
+        var iconFeature = new ol.Feature({
+            geometry: new ol.geom.Point([-45.96, -23.3]),
+            name: 'Yellow Tooth'
+        });
+
+        var iconStyle = new ol.style.Style({
+            image: new ol.style.Icon(({
+                anchor: [0.5, 46],
+                anchorXUnits: 'fraction',
+                anchorYUnits: 'pixels',
+                src: 'https://openlayers.org/en/v4.6.5/examples/data/icon.png'
+            }))
+        });
+
+        iconFeature.setStyle(iconStyle);
+
+        var vectorSource = new ol.source.Vector({
+            features: [iconFeature]
+        });
+
+        var vectorLayer = new ol.layer.Vector({
+            source: vectorSource
+        });
+
+        map.addLayer(vectorLayer);
+
     </script>
 
 </div>

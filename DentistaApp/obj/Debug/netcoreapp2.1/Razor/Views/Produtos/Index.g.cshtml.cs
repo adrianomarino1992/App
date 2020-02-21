@@ -68,7 +68,7 @@ using DentistaApp.Models;
             WriteLiteral("</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(94, 68, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ac273df84fc4057ac5646fe35697d6c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7f2eb919df034408b343a52e60215ed2", async() => {
                 BeginContext(141, 17, true);
                 WriteLiteral("Adicionar Produto");
                 EndContext();
@@ -179,7 +179,7 @@ using DentistaApp.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(1145, 55, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c1dcbc0e660c42bb8a112e0a80a213c8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1cc20bcf8e9a4206b550f9ab946194b5", async() => {
                 BeginContext(1190, 6, true);
                 WriteLiteral("Editar");
                 EndContext();
@@ -214,7 +214,7 @@ using DentistaApp.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1220, 60, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36d526e5ea004d73b2c20b6a60af058d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03147313d0a8450bad9300df11b2db57", async() => {
                 BeginContext(1268, 8, true);
                 WriteLiteral("Detalhes");
                 EndContext();
@@ -249,7 +249,7 @@ using DentistaApp.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1300, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "77612c48456149b4a58a825de5a0a33b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cb8019167f9b4723b9e0f6d003077222", async() => {
                 BeginContext(1347, 7, true);
                 WriteLiteral("Deletar");
                 EndContext();

@@ -17,6 +17,36 @@ namespace DentistaApp.Migrations
                 .HasAnnotation("ProductVersion", "2.1.11-servicing-32099")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("DentistaApp.Models.Cliente", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("Cidade");
+
+                    b.Property<string>("Nome");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Cliente");
+                });
+
+            modelBuilder.Entity("DentistaApp.Models.Dentista", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Nome");
+
+                    b.Property<string>("Senha");
+
+                    b.Property<string>("Usuario");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Dentista");
+                });
+
             modelBuilder.Entity("DentistaApp.Models.Fornecedor", b =>
                 {
                     b.Property<int>("Id")

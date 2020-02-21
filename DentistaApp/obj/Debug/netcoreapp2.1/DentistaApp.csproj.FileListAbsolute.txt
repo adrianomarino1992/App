@@ -26,7 +26,6 @@ C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\DentistaApp.View
 C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\DentistaApp.dll
 C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\DentistaApp.pdb
 C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\DentistaApp.csproj.CopyComplete
-C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\DentistaApp.csprojAssemblyReference.cache
 C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Fornecedores\Create.g.cshtml.cs
 C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Fornecedores\Delete.g.cshtml.cs
 C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Fornecedores\Details.g.cshtml.cs
@@ -37,3 +36,13 @@ C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Prod
 C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Produtos\Details.g.cshtml.cs
 C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Produtos\Edit.g.cshtml.cs
 C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Produtos\Index.g.cshtml.cs
+C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Dentistas\Create.g.cshtml.cs
+C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Dentistas\Delete.g.cshtml.cs
+C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Dentistas\Details.g.cshtml.cs
+C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Dentistas\Edit.g.cshtml.cs
+C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Dentistas\Index.g.cshtml.cs
+C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Create.g.cshtml.cs
+C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Delete.g.cshtml.cs
+C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Details.g.cshtml.cs
+C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Edit.g.cshtml.cs
+C:\xamarin\Aspx\DentistaApp\DentistaApp\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Index.g.cshtml.cs

@@ -70,8 +70,17 @@ namespace DentistaApp.Data
                 Fornecedor = f1
             };
 
+
+            Cliente c1 = new Cliente() { Cidade = Models.Enum.Cidades.Jacarei, Id = 1, Nome = "Adriano Marino Balera" };
+
+            Dentista d1 = new Dentista() { Nome = "Adriano Balera Marino", Id = 99, Senha = "123", Usuario = "1625" };
+
+
+
             _context.Fornecedor.AddRange(f1, f2);
             _context.Produto.AddRange(p1, p2, p3);
+            _context.Cliente.Add(c1);
+            _context.Dentista.Add(d1);
 
             _context.SaveChanges();
 

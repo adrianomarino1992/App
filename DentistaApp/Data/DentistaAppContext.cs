@@ -17,5 +17,9 @@ namespace DentistaApp.Models
         public DbSet<DentistaApp.Models.Fornecedor> Fornecedor { get; set; }
 
         public DbSet<DentistaApp.Models.Produto> Produto { get; set; }
+
+        public DbSet<DentistaApp.Models.Dentista> Dentista { get; set; }
+
+        public DbSet<DentistaApp.Models.Cliente> Cliente { get; set; }
     }
 }
